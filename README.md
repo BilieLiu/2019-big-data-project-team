@@ -16,7 +16,7 @@ To build a robust model, we decided to choose Taobao transactions dataset as tra
 
 ## 3. Code Files
 
-Code file is stored in codes folders
+Code files are stored in codes folders
 
 ## 4. Method Section
 
