@@ -22,7 +22,7 @@ To build a robust model, we decided to choose Taobao transactions dataset as tra
 
 The original dataset has roughly 20% missing entires. Given the dataset is large enough, we simply deleted all rows with missing values. Then, because the original dataset does not have a column indicating whether a customer is a repeat customer, we create a new columns "is_repeat” as our target column to indicate whether a customer is a repeat customer, by grouping by customer_id and merchant_id; after grouping, we utilize spark to counter each group, if a group appears more than once, this customer is a repeat customer for this merchant.
 
-### 4.2 Tools Used
+### 4.2 Tools Used and Visualizaions
 
 For preprocessing and analyzing, we utilize spark for preprocessing and doing exploratory analysis. After outputing the result of analysis, we utilize numpy and seanborn library for plotting. We did do a lot of visualizations. These visualizations help us easily to have a look at the data, get a useful insights of different variables, and identify interesting trend or pattern that could potentially be helpful for feature engineering.
 ![alt text](https://github.com/gwu-bigdata/2019-big-data-project-team_taobao/blob/master/img/10211564191016_.pic.jpg)
