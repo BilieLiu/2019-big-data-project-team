@@ -20,3 +20,9 @@ To build a robust model, we decided to choose Taobao transactions dataset as tra
 ### 4.1 Cleaning and Preprocessing
 
 The original dataset has roughly 20% missing entires. Given the dataset is large enough, we simply deleted all rows with missing values. Then, because the original dataset does not have a column indicating whether a customer is a repeat customer, we create a new columns "is_repeat” as our target column to indicate whether a customer is a repeat customer, by grouping by customer_id and merchant_id; after grouping, we utilize spark to counter each group, if a group appears more than once, this customer is a repeat customer for this merchant.
+
+### 4.2 Tools Used
+
+For preprocessing and modeling, we utilize pyspark and SparkML. We experimented binary logistic regression model and random forest model. Because repeat customer only accounts for a very tiny proportion of overall data, we have to downsample negative sample to better address data imbalance. The final proportion of positive is around 3.5%, which we consider appropriate for setting up a model.
+
+
