@@ -25,6 +25,8 @@ The original dataset has roughly 20% missing entires. Given the dataset is large
 
 For preprocessing and analyzing, we utilize spark for preprocessing and doing exploratory analysis. After outputing the result of analysis, we utilize numpy and seanborn library for plotting. We did do a lot of visualizations. These visualizations help us easily to have a look at the data, get a useful insights of different variables, and identify interesting trend or pattern that could potentially be helpful for feature engineering.
 ![alt text](https://github.com/gwu-bigdata/2019-big-data-project-team_taobao/blob/master/img/10181564189362_.pic.jpg)
+![alt text](https://github.com/gwu-bigdata/2019-big-data-project-team_taobao/blob/master/img/10191564189916_.pic.jpg)
+
 
 ### 4.3 Modeling
 
