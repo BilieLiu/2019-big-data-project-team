@@ -42,4 +42,12 @@ Due to the extremely imbalanced data and limited number of varaibles, we are una
 
 ## 6. Future Work
 
+1. Adding more Features: Item catrgory, Merchant, Brand, City etc. (hard to one-hot encoding becuaseof high cardinality )
+2. Features engineering - dates variables, extract extra features (is holiday? etc.) 
+3. Try more models (SVM) and ensembling
+4. Clustering customers and build model to identify future customer segmentation to get more insights
+
+
+
+
 
