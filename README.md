@@ -23,6 +23,19 @@ The original dataset has roughly 20% missing entires. Given the dataset is large
 
 ### 4.2 Tools Used
 
-For preprocessing and modeling, we utilize pyspark and SparkML. We experimented binary logistic regression model and random forest model. Because repeat customer only accounts for a very tiny proportion of overall data, we have to downsample negative sample to better address data imbalance. The final proportion of positive is around 3.5%, which we consider appropriate for setting up a model.
+For preprocessing and analyzing, we utilize spark for preprocessing and doing exploratory analysis. After outputing the result of analysis, we utilize numpy and seanborn library for plotting. We did do a lot of visualizations. These visualizations help us easily to have a look at the data, get a useful insights of different variables, and identify interesting trend or pattern that could potentially be helpful for feature engineering.
+
+### 4.3 Modeling
+
+For modeling, we utilize pyspark and SparkML. We experimented binary logistic regression model and random forest model. Because repeat customer only accounts for a very tiny proportion of overall data, we have to downsample negative sample to better address data imbalance. The final proportion of positive is around 3.5%, which we consider appropriate for setting up a model.
+
+### 4.3 Hypothesis
+
+Before modeling, we expect there would be a big gap between AUC score and accuracy. After modeling, our hypothesis is verified. We assume the reason lies in the fact that, though we have already downsampled lots of negative sample, the proportion of positive sample is still insufficient, which means if models randomly guess, if can also achieve 96.5% accuracy. 
+
+## 5. Conclusion
+
+
+## 6. Future Work
 
 
