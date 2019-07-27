@@ -1,0 +1,17 @@
+{
+  "accountId" : "465046201220",
+  "availabilityZone" : "us-east-1f",
+  "ramdiskId" : null,
+  "kernelId" : null,
+  "pendingTime" : "2019-07-27T02:30:18Z",
+  "architecture" : "x86_64",
+  "privateIp" : "172.31.54.153",
+  "version" : "2017-09-30",
+  "devpayProductCodes" : null,
+  "marketplaceProductCodes" : null,
+  "imageId" : "ami-03281b1efa9338c12",
+  "billingProducts" : null,
+  "instanceId" : "i-05c15ffa8a66130a0",
+  "instanceType" : "m4.xlarge",
+  "region" : "us-east-1"
+}
