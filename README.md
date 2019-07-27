@@ -38,6 +38,7 @@ Before modeling, we expect there would be a big gap between AUC score and accura
 
 ## 5. Conclusion
 
+Due to the extremely imbalanced data and limited number of varaibles, we are unable to well predict whether a customer will be a repeat customer. But we still get some useful insights. From the coefficients of logistic regression model, we can see as age increases, a customer is more likely to be a repeat custoemr, perhaps younger people like to try new things; also, female is more likely to be a repeat customer, perhaps because female is more loyal to a brand if it is a good brand.
 
 ## 6. Future Work
 
