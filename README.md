@@ -8,7 +8,7 @@ Online shopping is now an indispensable part of people's daily life. Customers e
 
 
 ## 2. Introduction
-![alt text](https://github.com/gwu-bigdata/2019-big-data-project-team_taobao/blob/master/img/10211564191016_.pic.jpg)
+![alt text](https://github.com/gwu-bigdata/2019-big-data-project-team_taobao/blob/master/img/10201564190111_.pic.jpg)
 
 The Prime Day of Amazon just passed, online shopping has been an indispensable part of people’s daily life. From customers’ stand points, online shopping is convenient, is cheaper and offers even more options. From merchants' stand point, they need to better promote their products to get more volume. To achieve the goal, they probably need to do analysis to get a better insights of their customers. Moreover, there always exists a limit for new customers, one way to attract more volume is to attract repeat customers. By targeting at customer profile that is likely to buy again, merchants can derive more revenues not just from new customers. So, our project's goal is to build up a robust machine learning model capable of identifying potential repeat customers so as to send out new promotions or new product information to those potential customers.
 
@@ -25,7 +25,7 @@ The original dataset has roughly 20% missing entires. Given the dataset is large
 ### 4.2 Tools Used
 
 For preprocessing and analyzing, we utilize spark for preprocessing and doing exploratory analysis. After outputing the result of analysis, we utilize numpy and seanborn library for plotting. We did do a lot of visualizations. These visualizations help us easily to have a look at the data, get a useful insights of different variables, and identify interesting trend or pattern that could potentially be helpful for feature engineering.
-![alt text](https://github.com/gwu-bigdata/2019-big-data-project-team_taobao/blob/master/img/10181564189362_.pic.jpg)
+![alt text](https://github.com/gwu-bigdata/2019-big-data-project-team_taobao/blob/master/img/10211564191016_.pic.jpg)
 
 
 ### 4.3 Modeling
